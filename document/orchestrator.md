@@ -44,4 +44,31 @@ Orchestrator acts as the centralized point of communication for third-party solu
 ## Orchestrator entities-Tenants and Folders
 
 ### overview
-A single Orchestrator instance can be split into multiple Tenants. Each tenant in an organization can be further subdivided and organized into Folders. Tenants are designed for the purpose of completed isolation of all Orchestrator entities(i.e., Robots, Assets, Queues, etc.) between these segregated instances of your deployment. 
+A single Orchestrator instance can be split into multiple Tenants. Each tenant in an organization can be further subdivided and organized into Folders. 
+
+Folders provide isolation at the resource level, while tenants provide isolation at the organizational level.
+
+## Tenant entities
+Robots are tenant entities. This means that they can be allocated to multiple folders in that tenant. Using roles and permissions, the way robots work with each of the folders can be customized.
+
+Packages are published to Orchestrator using feeds. The feeds can be configured to be at tenant level, or at folder level. 
+
+### User entities
+Both human users and robots are uniquely identified with user in Orchestrator.
+
+The level of access and the actions that your users can perform is controlled using two elements:
+- accounts, which establish the identify of a user and are used to log in to your UiPath applications
+- roles, which are assigned to accounts in order to grant them certain permissions within the UiPath ecosystem.
+
+### Machine entities
+These are Orchestrator entities corresponding to the workstations where human users and robots work, Using API keys, they enable the connection between the physical or virtual machines and Orchestrator.
+
+### License entities
+The right to use Studio and/or Robots, both attended and unattended, is done through licenses. Licenses exist at tenant level, from where they get distributed to users, and consumed when the machines connect to Orchestrator.
+
+### Webhook entites
+It facilitate the communication between Orchestrator and other applicatons at API level. These are mapped at tenant level, which means they cannot be differentiated between foleders and will provide information for the entrie tenant.
+
+## Folder entites
+A folder is a storage area that helps keep your projects separate. From the entities defined at the beginning of the lesson, processes and jobs are folder entities. Packages depend on feed configuration.
+
