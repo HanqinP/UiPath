@@ -14,7 +14,7 @@ using UiPath.UIAutomationNext.API.Models;
 using UiPath.UIAutomationNext.Enums;
 using UiPath.CodedWorkflows.DescriptorIntegration;
 
-namespace UndatedPracticeDemo
+namespace UpdatedPracticeDemo_TabularData
 {
     public partial class CodedWorkflow : CodedWorkflowBase
     {
@@ -31,14 +31,14 @@ namespace UndatedPracticeDemo
     }
 }
 
-namespace UndatedPracticeDemo.ObjectRepository
+namespace UpdatedPracticeDemo_TabularData.ObjectRepository
 {
     public static class Descriptors
     {
     }
 }
 
-namespace UndatedPracticeDemo._Implementation
+namespace UpdatedPracticeDemo_TabularData._Implementation
 {
     internal class ScreenDescriptorDefinition : IScreenDescriptorDefinition
     {

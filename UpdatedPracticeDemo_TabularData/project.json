@@ -1,6 +1,6 @@
 {
-  "name": "UpdatedPracticeDemo_OrchestratorQueue",
-  "projectId": "ce187414-ecea-4d8e-95dc-6c8f8c244a51",
+  "name": "UpdatedPracticeDemo_TabularData",
+  "projectId": "b9f0a65a-a148-4672-9738-9f9cd57b544c",
   "description": "Robotic Enterprise Framework",
   "main": "Main.xaml",
   "dependencies": {
@@ -45,42 +45,42 @@
     "fileInfoCollection": [
       {
         "editingStatus": "InProgress",
-        "testCaseId": "b9eb69e2-962e-4fe3-b2e8-80ded8ea2d11",
+        "testCaseId": "bc26d67a-0429-414c-bc64-38f3dcf699ae",
         "testCaseType": "TestCase",
         "executionTemplateType": "Local",
         "fileName": "Tests\\GetTransactionDataTestCase.xaml"
       },
       {
         "editingStatus": "InProgress",
-        "testCaseId": "2827c764-f8e8-4dc6-a7ec-8e793c3431bb",
+        "testCaseId": "71adbe04-349b-4dde-8fdd-49e6d10edfc9",
         "testCaseType": "TestCase",
         "executionTemplateType": "Local",
         "fileName": "Tests\\InitAllApplicationsTestCase.xaml"
       },
       {
         "editingStatus": "InProgress",
-        "testCaseId": "3fcb5636-fb72-4b58-8a40-8e240bc43942",
+        "testCaseId": "583db838-2c4d-4deb-9fcf-4c63f46ef11c",
         "testCaseType": "TestCase",
         "executionTemplateType": "Local",
         "fileName": "Tests\\InitAllSettingsTestCase.xaml"
       },
       {
         "editingStatus": "InProgress",
-        "testCaseId": "5681a8f5-0c7d-48b7-8ebe-65bde92931de",
+        "testCaseId": "88707b30-aa76-4697-ba8d-2b214a1eab91",
         "testCaseType": "TestCase",
         "executionTemplateType": "Local",
         "fileName": "Tests\\MainTestCase.xaml"
       },
       {
         "editingStatus": "InProgress",
-        "testCaseId": "4eb8a038-f68d-4769-84ea-aae038f60961",
+        "testCaseId": "8cb4e2ee-0e0c-4f3b-a600-5a13e71d851e",
         "testCaseType": "TestCase",
         "executionTemplateType": "Local",
         "fileName": "Tests\\ProcessTestCase.xaml"
       },
       {
         "editingStatus": "InProgress",
-        "testCaseId": "05425e5b-4d0a-4138-8b99-8bcfd9848678",
+        "testCaseId": "189f6dde-818e-4515-b271-d798197aa715",
         "testCaseType": "TestCase",
         "executionTemplateType": "Local",
         "fileName": "Tests\\WorkflowTestCaseTemplate.xaml"
@@ -93,13 +93,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "7664effc-7f56-4f79-aeb7-35dd9c1efa8c",
-      "input": [],
-      "output": []
-    },
-    {
-      "filePath": "CodedDemo.cs",
-      "uniqueId": "ef69ce18-e111-4c2a-a5b6-6517ffd1a12c",
+      "uniqueId": "cdf843d2-1041-41e1-b203-d16699b87b2c",
       "input": [],
       "output": []
     }
