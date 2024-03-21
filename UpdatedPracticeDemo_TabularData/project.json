@@ -4,6 +4,7 @@
   "description": "Robotic Enterprise Framework",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.Credentials.Activities": "[2.0.0]",
     "UiPath.Excel.Activities": "[2.22.3]",
     "UiPath.System.Activities": "[23.10.5]",
     "UiPath.Testing.Activities": "[23.10.1]",
@@ -86,7 +87,6 @@
         "fileName": "Tests\\WorkflowTestCaseTemplate.xaml"
       }
     ],
-    "modernBehavior": true,
     "saveToCloud": false
   },
   "expressionLanguage": "VisualBasic",
