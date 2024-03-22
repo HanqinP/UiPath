@@ -148,10 +148,30 @@
     {
       "Path": "Framework/Process.xaml",
       "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
+      "VariablesSectionElementsOrder": [
+        "str_TransactionNumber&Sequence_1",
+        "dec_Sum&Sequence_1",
+        "dec_NotOnUsCheck&Sequence_1",
+        "dec_OnUsCheck&Sequence_1",
+        "dec_CashIn&Sequence_1"
+      ],
       "ArgumentsSectionElementsOrder": [
         "in_TransactionItem",
         "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/RetryCurrentTransaction.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config",
+        "io_RetryNumber",
+        "io_TransactionNumber",
+        "in_SystemException",
+        "in_QueueRetry"
       ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
