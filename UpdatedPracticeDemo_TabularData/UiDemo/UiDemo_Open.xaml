@@ -6,7 +6,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1732.6666666666667,1565.3333333333333</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1478.4,1628.8</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>UiDemo_Open_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -109,7 +109,7 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="UiDemo_Open" sap:VirtualizedContainerService.HintSize="512,1500.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="UiDemo_Open" sap:VirtualizedContainerService.HintSize="545.6,1564" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="stUserName" />
       <Variable x:TypeArguments="ss:SecureString" Name="stPassword" />
@@ -119,21 +119,21 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,183.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[String.Format(&quot;Opening UiDemo from {0} with the credential named {1}&quot;, in_UiDemoAppPath, in_CredentialName)]" />
-    <p:GetSecureCredential CredentialType="Generic" DisplayName="Get Secure Credentials" sap:VirtualizedContainerService.HintSize="450,121.33333333333333" sap2010:WorkflowViewState.IdRef="GetSecureCredential_1" Password="[stPassword]" PersistanceType="Enterprise" Target="UiDemo_Credential" Username="[stUserName]" />
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Application: UiDemo" sap:VirtualizedContainerService.HintSize="450,1108" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="Background" OpenMode="Always" ScopeGuid="5ac94b70-a261-427a-9f86-07443236c68b" Version="V2">
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="483.2,142.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[String.Format(&quot;Opening UiDemo from {0} with the credential named {1}&quot;, in_UiDemoAppPath, in_CredentialName)]" />
+    <p:GetSecureCredential CredentialType="Generic" DisplayName="Get Secure Credentials" sap:VirtualizedContainerService.HintSize="483.2,80.8" sap2010:WorkflowViewState.IdRef="GetSecureCredential_1" Password="[stPassword]" PersistanceType="Enterprise" Target="[in_CredentialName]" Username="[stUserName]" />
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Application: UiDemo" sap:VirtualizedContainerService.HintSize="483.2,1148.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="Background" OpenMode="Always" ScopeGuid="5ac94b70-a261-427a-9f86-07443236c68b" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,791.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,857.6" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'Username'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,260" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="5ac94b70-a261-427a-9f86-07443236c68b" Text="[stUserName]" Version="V3">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'Username'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="5ac94b70-a261-427a-9f86-07443236c68b" Text="[stUserName]" Version="V3">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable DesignTimeRectangle="138, 113, 150, 29" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'editable text user'" FullSelectorArgument="&lt;ctrl automationid='user' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='user' role='editable text' /&gt;" Guid="4bc5fb31-5d1f-4cfd-bf5a-92ce2ed1e960" InformativeScreenshot="0df58ed745dc661f5e62fc9153c0b743.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='uidemo.exe' cls='HwndWrapper*' title='UiDemo' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
